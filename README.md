@@ -8,7 +8,7 @@ Il progetto PiBaloon (ora Wireless Baloon Emergency Network)  nasce dopo l'emerg
 
 
 Lo scopo del progetto è quindi quello di creare una rete wireless autonoma di emergenza che renda i dispositivi elettronici mobili, utilizzabili per recuperare informazioni utili in condizioni di emergenza.
-Oltre all’esperienza del terremoto anche quella maturata nel progetto Ninux ha influito allo sviluppo del progetto in particolare la topologia a mesh e gli algoritmi di routing ad alta riconfigurabilità e resilienza implementati in un firmware (Libre Mesh) utilizzto dal gruppo di Bologna e non solo, si prestano eccezzionalmente allo scopo del progetto.
+Oltre all’esperienza del terremoto anche quella maturata nel progetto Ninux ha influito allo sviluppo del progetto in particolare la topologia a mesh e gli algoritmi di routing ad alta riconfigurabilità e resilienza implementati in un firmware (Libre Mesh) utilizzato dal gruppo di Bologna e non solo, si prestano eccezionalmente allo scopo del progetto.
 
 
 Il nodo WBEN è composto da un pallone pieno di gas elio che si innalza a 20/30mt di altezza portando con se un accesspoint wireless composto da due antenne, una omnidirezionale che espone una rete protetta con cui i palloni formano una rete mesh tra di loro e un'antenna a pannello con irradiazione verso terra che dà accesso agli utilizzatori del servizio di emergenza.
@@ -26,7 +26,7 @@ Si tratta appunto di una versione prototipale utile ad eseguire i primi test ma 
 Sono state pensate molte implementazioni diverse a livello hardware del progetto in un breve elenco che poi verrà affrontato meglio nella parte “futuri sviluppi”:
 
 -accessori per il pallone:         
-tele in kevlar per aumantrne la resistenza, spoiler per aumetare la stabilità e la resistenza al vento
+tele in kevlar per aumentarne la resistenza, spoiler per aumetare la stabilità e la resistenza al vento
 
 -custodie in polistirolo rivestite per l’elettronica di bordo
 

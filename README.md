@@ -2,7 +2,8 @@ WBEN
 ====
 
 Fast deployable Wireless Baloon Emergency Network
-﻿
+
+
 Il progetto PiBaloon (ora Wireless Baloon Emergency Network)  nasce dopo l'emergenza del terremoto in Emilia del 2012, dove è stato possibile osservare le fragilità dell’infrastruttura GSM che utilizzano i cellulari per i servizi di chiamata e invio di SMS. Prendendo in considerazione la percentuale di dispositivi elettronici in grado di accedere a reti WiFi 802.11 come smartphone, tablet, netbook, ecc… che ormai la maggiorparte delle persone possiede è ragionevole pensare che un sistema “a celle” che comunichi sugli standard 802.11 con servizi leggeri e a rapido dispiego sia una soluzione possibile alle situazioni di emergenza in aiuto ai sistemi tutt’ora operativi come i ponti radioamatoriali e le sale radio dislocate nei centri di protezione civile.
 
 
@@ -23,10 +24,14 @@ HARDWARE:
 Al momento il prototipo è stato costruito con una scatola stagna di pvc con dentro la scheda di un Tp-Link WR-841ND (la version senza antenne staccabili è la "WR-841N").
 Si tratta appunto di una versione prototipale utile ad eseguire i primi test ma sopratutto per contenere i costi visto che ad oggi il progetto è compleamente autofinanziato.
 Sono state pensate molte implementazioni diverse a livello hardware del progetto in un breve elenco che poi verrà affrontato meglio nella parte “futuri sviluppi”:
+
 -accessori per il pallone:         
 tele in kevlar per aumantrne la resistenza, spoiler per aumetare la stabilità e la resistenza al vento
+
 -custodie in polistirolo rivestite per l’elettronica di bordo
+
 -antenne autocostruite (abbiamo l’attrezzatura completa per farle!) per migliorare le prestazioni a discapito del peso
+
 -router board dedicate come la alix3d2 che ha appunto due slot miniPCI in cui alloggiare due radio differenti
 
 
@@ -46,9 +51,9 @@ Per fornire i servizi sopra annunciati, si pensa di utilizzare un server zeroshe
 Per l’autenticazione degli utenti l’idea è quella di utilizzare i servizi forniti da RADIUS principalmente per la semplicità nel classificare gli utenti in domini differenti (spero di capire come si configura per farlo distribuito!!!)
 
 
-> Utenti locali al WBEN:
+ Utenti locali al WBEN:
     - registrazione di un utente propagato su tutti i server
     - informazioni base dell'utente utili ad essere contattati
-> Servizio di posta:
+ Servizio di posta:
     - gestito tramite gli utenti locali della WBEN
     -
